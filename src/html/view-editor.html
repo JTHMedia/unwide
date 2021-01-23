@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+   view-simple.html
+   
+   Copyright 2021 RedRoof1 <RedRoof1@FI0620FD1-X>
+   
+-->
+
+<head>
+	<meta charset="utf-8" />
+	<title>UNWIDE</title>
+	<meta name="generator" content="Geany 1.37.1" />
+	
+	<link rel="stylesheet" href="/src/css/global.css">
+	
+	<script src="/node_modules/jquery/dist/jquery.min.js">
+	</script>
+	<script src="/node_modules/ace-builds/src-min-noconflict/ace.js">
+	</script>
+	
+</head>
+
+<body>
+	<div id="container-editor">
+		<div class="ace-editor" id="ace-editor"></div>
+		<div class="ace-editor-info">DOCUMENT INFORMATION</div>
+	</div>
+	<div id="container-hidden" class="hidden">
+		<input id="saveas-dialog" type="file" nwsaveas>
+		<!-- TEMPORARY -->
+		<script>
+			var tmpEdit = ace.edit('ace-editor');
+				tmpEdit.setTheme('ace/theme/dawn');
+		</script>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "unwide",
+  "version": "0.1.0",
+  "description": "The Universal Node-Webkit Integrated Development Environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "run --win-x64 --mirror https://dl.nwjs.io/ ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jthmedia/unwide.git"
+  },
+  "author": "J. T. Hartzfeld",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jthmedia/unwide/issues"
+  },
+  "homepage": "https://github.com/jthmedia/unwide#readme",
+  "devDependencies": {
+    "nwjs-builder-phoenix": "^1.15.0"
+  },
+  "dependencies": {
+    "ace-builds": "^1.4.12",
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.5.1",
+    "popper": "^1.0.1"
+  }
+}
